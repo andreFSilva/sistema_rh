@@ -1,3 +1,10 @@
-from django.shortcuts import render
+from django.shortcuts import render, HttpResponse
+from django.views.generic import TemplateView
 
-# Create your views here.
+
+'''class FuncionariosView(TemplateView):
+    template_name = 'base.html'''
+
+
+def home(request):
+    return HttpResponse('Ola mundo')
