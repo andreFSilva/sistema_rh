@@ -1,0 +1,24 @@
+$primary: #0074d9;
+$danger: #ead10c;
+$rf-sol: #f710e4;
+$rf-lua: #210101;
+
+
+$theme-colors: (
+        "primary": $primary,
+        "danger": $danger,
+        "rf-sol": $rf-sol,
+        "rf-lua": $rf-lua,
+);
+
+// css
+
+body {
+        margin:0;
+        padding:0;
+        font-family:helvetica, sans-serif;
+    }
+
+
+
+@import "../../../node_modules/bootstrap/scss/bootstrap.scss";
